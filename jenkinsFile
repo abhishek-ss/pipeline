@@ -73,6 +73,7 @@ stages {
 				'''
             }
         }
+	exit 0
         stage('test') {
             steps {
                 echo 'Testing....'
