@@ -39,7 +39,6 @@ stages {
 				
             }
         }
-	exit 0
         stage('deploy') {
             steps {
                 echo 'Deploying to TEST environment..'
